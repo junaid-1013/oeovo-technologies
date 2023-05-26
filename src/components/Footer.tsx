@@ -1,6 +1,6 @@
 export const Footer = () => {
     return (
-        <footer className="bg-[#111111] w-full -mt-20">
+        <footer className="bg-[#111111] w-full">
             <div className="mx-auto w-full max-w-screen-xl p-4 pb-6 lg:pb-8">
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center ">© 2023 <a href="/" className="hover:underline">Oeovo Technologies™</a>. All Rights Reserved.
