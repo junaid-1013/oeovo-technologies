@@ -48,7 +48,11 @@ export const ReviewCards = () => {
                                         data-mdb-ripple="true"
                                         data-mdb-ripple-color="light"
                                     >
-                                        <Image src={testimonial.image} className="w-full" alt={testimonial.name} />
+                                        <img
+                                            src={testimonial.image} 
+                                            className="w-full" 
+                                            alt={testimonial.name}
+                                             />
                                         <a href="#!">
                                             <div className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed opacity-0 hover:opacity-100 transition duration-300 ease-in-out"></div>
                                         </a>
