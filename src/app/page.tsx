@@ -2,6 +2,7 @@ import Hero from "@/components/Hero"
 import WhyYouChoseUs from "@/components/WhyYouChoseUs"
 import { ReviewCards } from "@/components/ReviewCards"
 import OurCoreServices from "@/components/OurCoreServices"
+import { Blogs } from "@/components/Blogs"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <br />
       <Hero />
       <OurCoreServices/>
+      <Blogs/>
       <WhyYouChoseUs />
       <ReviewCards />
 

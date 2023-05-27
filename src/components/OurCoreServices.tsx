@@ -128,7 +128,7 @@ const OurCoreServices = () => {
                     ))}
                 </div>
             </div>
-            <div className="flex mb-5 lg:-mt-16 items-center justify-center">
+            <div className="flex mb-5 lg:-mt-16 sm:mt-5 md:mt-5 items-center justify-center">
                 <Link href="@/services">
                     <button className="relative border-2 border-[#f5100d] bg-transparent py-2.5 px-5 font-medium uppercase 
                     text-[#f5100d] transition-all before:absolute before:left-0 before:top-0 before:-z-10 before:h-full 

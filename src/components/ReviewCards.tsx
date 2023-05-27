@@ -35,16 +35,16 @@ export const ReviewCards = () => {
 
     return (
         <div className="container my-24 px-6 mx-auto">
-            <section className="mb-32 text-[#f5100d] text-center">
+            <section className="mb-32 text-[#f5f5f5] text-center">
                 <h2 className="mb-12 text-5xl text-center font-sans leading-[1.15] sm:text-6xl">Testimonials</h2>
                 <div className="grid md:grid-cols-3 gap-6 xl:gap-x-12 px-12 py-5" >
                     {testimonialsData.map((testimonial, index) => (
                         <div className="mb-6 lg:mb-0" key={index} >
                             <div className="relative block bg-[#111111]/30 rounded-lg shadow-lg elevated-shadow
                             transition duration-500 ease-in-out hover:-translate-y-1 hover:cursor-pointer mb-10">
-                                <div className="flex">
+                                <div className="flex items-center justify-center">
                                     <div
-                                        className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-lg mx-4 -mt-4 w-full"
+                                        className="relative overflow-hidden bg-no-repeat bg-cover shadow-lg rounded-full mx-4 -mt-4 w-[25%] elevated-shadow "
                                         data-mdb-ripple="true"
                                         data-mdb-ripple-color="light"
                                     >
