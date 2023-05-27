@@ -7,7 +7,7 @@ const Hero = () => {
             className={`flex flex-col justify-center items-center bg-[#1b1b1b] py-2 
             bg-[url('../../public/4.png')] bg-cover h-screen`}>
             <div className="flex flex-col items-center justify-center py-2 w-full px-4">
-                <div className="flex flex-row">
+                <div className="flex flex-row px-28">
                     <p className="mt-5 text-5xl text-center font-['Impact'] leading-[1.15] text-[#f5f5f5] sm:text-6xl">
                         Software Development Company in Lahore, Pakistan For Innovative Software Solutions
                         {/* &nbsp;<span className="text-[#f5100d]">OEOVO Technologies</span> */}
