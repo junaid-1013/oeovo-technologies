@@ -8,7 +8,7 @@ export default function Home() {
     const [message, setMessage] = useState("");
 
     //   Form validation
-    const [errors, setErrors] = useState({});
+    const [errors, setErrors]:any = useState({});
 
     //   Setting button text
     const [buttonText, setButtonText] = useState("Send");
