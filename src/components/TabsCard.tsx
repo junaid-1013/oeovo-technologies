@@ -117,7 +117,7 @@ const TabsCard = () => {
                                         <p className="font-bold text-[#7b7b7b]">
                                             <span className="text-[#f5100d] mr-2">&#10003;</span>
                                             Save money!</p>
-                                        By working with Oeovo Technologies, one of the leading digital agencies in Multan, you&apos;re sure to get the optimal results you've been looking for with the help of our experienced team of digital marketers!
+                                        By working with Oeovo Technologies, one of the leading digital agencies in Multan, you&apos;re sure to get the optimal results you&apos;ve been looking for with the help of our experienced team of digital marketers!
                                         <br />
                                         <br />
                                         <p className="font-bold text-[#7b7b7b]">
