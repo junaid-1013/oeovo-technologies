@@ -20,10 +20,12 @@ const Hero = () => {
                 </div>
             </div>
             <Link href="@/contact">
-                <button
-                    className="bg-[#f5100d] hover:bg-[#f5100d]/50 text-white py-2 px-4 rounded
-                    transition duration-300 transform hover:-translate-y-1">
-                    Discover More
+                <button className="relative border-2 border-[#f5100d] bg-transparent py-2.5 px-5 font-medium uppercase 
+                text-[#f5100d] transition-all before:absolute before:left-0 before:top-0 before:-z-10 before:h-full 
+                before:w-full before:origin-top-left before:scale-x-0 before:bg-[#f5100d] before:transition-transform 
+                before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 
+                rounded-lg duration-500 transform hover:-translate-y-1">
+                    Discover
                 </button>
             </Link>
         </section>

@@ -8,7 +8,7 @@ const TabsCard = () => {
             <div className="flex flex-wrap pr-10">
                 <div className="w-full">
                     <p className="mt-5 text-3xl text-left font-sans leading-[0.85] text-[#f5f5f5] sm:text-4xl">
-                        Our vision is to become the world's leading idea-realization company.
+                        Our vision is to become the world&apos;s leading idea-realization company.
                     </p>
 
                     <ul
@@ -104,26 +104,26 @@ const TabsCard = () => {
                                 <div className={openTab === 2 ? "block" : "hidden"} id="link2">
                                     <p className="font-sans">
                                         <p className="italic ">
-                                            We Believe We Are Enablers of People's Dreams.
+                                            We Believe We Are Enablers of People&apos;s Dreams.
                                         </p>
                                         <br />
                                         <p className="font-bold text-[#7b7b7b]">
                                             <span className="text-[#f5100d] mr-2">&#10003;</span>
                                             Relax and let us do it for you!
                                         </p>
-                                        We're an award-winning digital marketing agency in Multan that can help you with your SEO, PPC and SMM ambitions. And how you may ask by creating awesome digital marketing strategies that are fully aligned with your business objectives!
+                                        We&apos;re an award-winning digital marketing agency in Multan that can help you with your SEO, PPC and SMM ambitions. And how you may ask by creating awesome digital marketing strategies that are fully aligned with your business objectives!
                                         <br />
                                         <br />
                                         <p className="font-bold text-[#7b7b7b]">
                                             <span className="text-[#f5100d] mr-2">&#10003;</span>
                                             Save money!</p>
-                                        By working with Oeovo Technologies, one of the leading digital agencies in Multan, you're sure to get the optimal results you've been looking for with the help of our experienced team of digital marketers!
+                                        By working with Oeovo Technologies, one of the leading digital agencies in Multan, you&apos;re sure to get the optimal results you've been looking for with the help of our experienced team of digital marketers!
                                         <br />
                                         <br />
                                         <p className="font-bold text-[#7b7b7b]">
                                             <span className="text-[#f5100d] mr-2">&#10003;</span>
                                             Fast results!</p>
-                                        As one of the fastest growing digital marketing agencies in Multan, we are confident in the solutions we offer to our partners.
+                                        As one of the fastest growing digital marketing agencies in Lahore, we are confident in the solutions we offer to our partners.
                                     </p>
                                 </div>
                                 <div className={openTab === 3 ? "block" : "hidden"} id="link3">
@@ -136,7 +136,7 @@ const TabsCard = () => {
                                             <span className="text-[#f5100d] mr-2">&#10003;</span>
                                             THE BUYER AND SELLER EXPERIENCE
                                         </p>
-                                        It's all about the experiences and not the products. We delivers high end buyer and seller practices. Here at Oeovo Technologies our teams work very hard to provide an experience that is second to none.
+                                        It&apos;s all about the experiences and not the products. We delivers high end buyer and seller practices. Here at Oeovo Technologies our teams work very hard to provide an experience that is second to none.
                                         <br />
                                         <br />
                                         <p className="font-bold text-[#7b7b7b]">
