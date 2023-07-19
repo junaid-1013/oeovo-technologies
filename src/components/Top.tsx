@@ -15,10 +15,10 @@ const Top = () => {
                         height={20}
                         className="object-contain mr-2"
                     />
-                    <Link href="mailto:info@oeovo.com"
+                    <Link href="mailto:info@linetechdigital.com"
                         className="font-sans  text-white"
 
-                    >info@oeovo.com</Link>
+                    >info@linetechdigital.com</Link>
                 </div>
                 <div className="flex flex-row">
                     <Image

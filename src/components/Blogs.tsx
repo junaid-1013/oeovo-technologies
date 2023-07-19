@@ -58,9 +58,9 @@ export const Blogs = () => {
                                 </a>
                                 <header className="flex flex-col items-start justify-between leading-tight p-2 md:p-4">
                                     <h1 className="text-lg">
-                                        <a href="#" className="group text-[#f5100d] font-['Calibri'] text-bold transition duration-300">
+                                        <a href="#" className="group text-[#fcb040] font-['Calibri'] text-bold transition duration-300">
                                             {article.category}
-                                            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#f5100d]"></span>
+                                            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#fcb040]"></span>
                                         </a>
                                     </h1>
                                     <h1 className="text-lg">
@@ -79,9 +79,9 @@ export const Blogs = () => {
             </div>
             <div className="flex mb-5 items-center justify-center">
                 <Link href="@/services">
-                    <button className="relative border-2 border-[#f5100d] bg-transparent py-2.5 px-5 font-medium uppercase 
-                    text-[#f5100d] transition-all before:absolute before:left-0 before:top-0 before:-z-10 before:h-full 
-                    before:w-full before:origin-top-left before:scale-x-0 before:bg-[#f5100d] before:transition-transform 
+                    <button className="relative border-2 border-[#fcb040] bg-transparent py-2.5 px-5 font-medium uppercase 
+                    text-[#fcb040] transition-all before:absolute before:left-0 before:top-0 before:-z-10 before:h-full 
+                    before:w-full before:origin-top-left before:scale-x-0 before:bg-[#fcb040] before:transition-transform 
                     before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 
                     rounded-lg duration-500 transform hover:-translate-y-1">
                         See Full Blog &rarr;

@@ -10,7 +10,7 @@ const Hero = () => {
                 <div className="flex flex-row px-28">
                     <p className="mt-5 text-5xl text-center font-['Impact'] leading-[1.15] text-[#f5f5f5] sm:text-6xl">
                         Software Development Company in Lahore, Pakistan For Innovative Software Solutions
-                        {/* &nbsp;<span className="text-[#f5100d]">OEOVO Technologies</span> */}
+                        {/* &nbsp;<span className="text-[#fcb040]">OEOVO Technologies</span> */}
                     </p>
                 </div>
                 <div className="pb-5">
@@ -20,9 +20,9 @@ const Hero = () => {
                 </div>
             </div>
             <Link href="@/contact">
-                <button className="relative border-2 border-[#f5100d] bg-transparent py-2.5 px-5 font-medium uppercase 
-                text-[#f5100d] transition-all before:absolute before:left-0 before:top-0 before:-z-10 before:h-full 
-                before:w-full before:origin-top-left before:scale-x-0 before:bg-[#f5100d] before:transition-transform 
+                <button className="relative border-2 border-[#fcb040] bg-transparent py-2.5 px-5 font-medium uppercase 
+                text-[#fcb040] transition-all before:absolute before:left-0 before:top-0 before:-z-10 before:h-full 
+                before:w-full before:origin-top-left before:scale-x-0 before:bg-[#fcb040] before:transition-transform 
                 before:duration-300 before:content-[''] hover:text-white before:hover:scale-x-100 
                 rounded-lg duration-500 transform hover:-translate-y-1">
                     Discover

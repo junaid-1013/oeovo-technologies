@@ -60,7 +60,7 @@ export const ReviewCards = () => {
                                 </div>
                                 <div className="p-6">
                                     <h5 className="text-lg font-bold mb-2 text-[#f5f5f5]">{testimonial.name}</h5>
-                                    <h6 className="font-medium text-[#f5100d] mb-4">{testimonial.role}</h6>
+                                    <h6 className="font-medium text-[#fcb040] mb-4">{testimonial.role}</h6>
                                     <ul className="flex justify-center mb-6">
                                         {typeof testimonial.rating === 'number' && !isNaN(testimonial.rating) && testimonial.rating > 0
                                             ? Array.from({ length: Math.floor(testimonial.rating) }).map((_, index) => (

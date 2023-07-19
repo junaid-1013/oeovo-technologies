@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link"
 import Image from "next/image"
-import logo from "../../public/logo.svg"
+import logo from "../../public/logo.png"
 import { useState } from 'react';
 
 const Navbar = () => {
@@ -14,9 +14,9 @@ const Navbar = () => {
                         <Link href="/" className="flex ga[-2 flex-center">
                             <Image
                                 src={logo}
-                                alt="Oeovo logo"
-                                width={150}
-                                height={150}
+                                alt="Linetech digital logo"
+                                width={50}
+                                height={50}
                                 className="object-contain"
                             />
                         </Link>

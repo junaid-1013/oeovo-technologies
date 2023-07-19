@@ -87,7 +87,7 @@ export default function Home() {
         // }
         if (isValidForm) {
             setButtonText("Sending");
-            const mailtoLink = `mailto:junaid.ali101452@gmail.com?subject=${encodeURIComponent(
+            const mailtoLink = `mailto:info@linetechdigital.com?subject=${encodeURIComponent(
                 subject
             )}&body=${encodeURIComponent(
                 `Full Name: ${fullname}\nEmail: ${email}\nMessage: ${message}`
@@ -112,7 +112,7 @@ export default function Home() {
             <br />
             <header className="p-8 grid grid-cols-1 md:grid-cols-2 gap-4 pt-10 lg:px-40 bg-[#111111]/30 md:h-96">
                 <div className="mx-auto mb-10 md:mt-20">
-                    <div className="badge bg-[#f5100d] inline-block rounded-xl">
+                    <div className="badge bg-[#fcb040] inline-block rounded-xl">
                         <p className="font-light text-base px-4 py-1 text-gray-50">
                             Lets talk
                         </p>
@@ -146,7 +146,7 @@ export default function Home() {
                             setFullname(e.target.value);
                         }}
                         name="fullname"
-                        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-[#f5100d] font-light text-gray-500"
+                        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-[#fcb040] font-light text-gray-500"
                     />
                     {errors?.fullname && (
                         <p className="text-red-500">Fullname cannot be empty.</p>
@@ -165,7 +165,7 @@ export default function Home() {
                         onChange={(e) => {
                             setEmail(e.target.value);
                         }}
-                        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-[#f5100d] font-light text-gray-500"
+                        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-[#fcb040] font-light text-gray-500"
                     />
                     {errors?.email && (
                         <p className="text-red-500">Email cannot be empty.</p>
@@ -184,7 +184,7 @@ export default function Home() {
                         onChange={(e) => {
                             setSubject(e.target.value);
                         }}
-                        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-[#f5100d] font-light text-gray-500"
+                        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-[#fcb040] font-light text-gray-500"
                     />
                     {errors?.subject && (
                         <p className="text-red-500">Subject cannot be empty.</p>
@@ -201,7 +201,7 @@ export default function Home() {
                         onChange={(e) => {
                             setMessage(e.target.value);
                         }}
-                        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-[#f5100d] font-light text-gray-500"
+                        className="bg-transparent border-b py-2 pl-4 focus:outline-none focus:rounded-md focus:ring-1 ring-[#fcb040] font-light text-gray-500"
                     ></textarea>
                     {errors?.message && (
                         <p className="text-red-500">Message body cannot be empty.</p>
@@ -209,7 +209,7 @@ export default function Home() {
                     <div className="flex flex-row items-center justify-start">
                         <button
                             type="submit"
-                            className="px-10 mt-8 py-2 bg-[#f5100d] text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
+                            className="px-10 mt-8 py-2 bg-[#fcb040] text-gray-50 font-light rounded-md text-lg flex flex-row items-center"
                         >
                             {buttonText}
                             <svg
@@ -254,7 +254,7 @@ export default function Home() {
                             width="24"
                             height="24"
                             viewBox="0 0 24 24"
-                            className="text-[#f5100d] h-4 w-4"
+                            className="text-[#fcb040] h-4 w-4"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
                         >
@@ -277,7 +277,7 @@ export default function Home() {
                         <svg
                             width="24"
                             height="24"
-                            className="text-[#f5100d] h-4 w-4"
+                            className="text-[#fcb040] h-4 w-4"
                             viewBox="0 0 24 24"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -290,7 +290,7 @@ export default function Home() {
                             />
                         </svg>
                         <p className="text-gray-500 font-light">
-                            freealancer@mywebsite.com
+                            info@linetechdigital.com
                         </p>
                     </div>
                     <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:shadow-lg cursor-pointer transition duration-200">
@@ -299,7 +299,7 @@ export default function Home() {
                             height="24"
                             viewBox="0 0 24 24"
                             fill="none"
-                            className="text-[#f5100d] h-4 w-4"
+                            className="text-[#fcb040] h-4 w-4"
                             xmlns="http://www.w3.org/2000/svg"
                         >
                             <path
@@ -316,7 +316,7 @@ export default function Home() {
                             />
                         </svg>
                         <p className="text-gray-500 font-light">
-                            freealancer@mywebsite.com
+                            info@linetechdigital.com
                         </p>
                     </div>
                 </div>
