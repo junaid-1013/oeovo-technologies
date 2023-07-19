@@ -110,7 +110,7 @@ export default function Home() {
             <br />
             <br />
             <br />
-            <header className="p-8 grid grid-cols-1 md:grid-cols-2 gap-4 pt-10 lg:px-40 bg-[#111111]/30 md:h-96">
+            <header className="p-8 grid grid-cols-1 md:grid-cols-2 gap-4 pt-10 lg:px-40 bg-[#111111]/30 md:h-96 md:px-8">
                 <div className="mx-auto mb-10 md:mt-20">
                     <div className="badge bg-[#fcb040] inline-block rounded-xl">
                         <p className="font-light text-base px-4 py-1 text-gray-50">
@@ -271,7 +271,7 @@ export default function Home() {
                                 fill="currentColor"
                             />
                         </svg>
-                        <p className="text-gray-500 font-light">+923270663686</p>
+                        <p className="text-gray-500 font-light">+923265930300</p>
                     </div>
                     <div className="card p-8 shadow rounded-md flex flex-row items-center space-x-4 hover:shadow-lg cursor-pointer transition duration-200">
                         <svg

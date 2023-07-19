@@ -28,10 +28,10 @@ const Top = () => {
                         height={18}
                         className="object-contain mr-2"
                     />
-                    <Link href="tel:+923270663686"
+                    <Link href="tel:+923265930300"
                         className="font-sans  text-white"
 
-                    >+923270663686</Link>
+                    >+923265930300</Link>
                 </div>
             </div>
         </nav>
